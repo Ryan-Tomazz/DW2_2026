@@ -1,4 +1,1 @@
-let x = 7;
-
-
-console.log(x)
+let x = "ola, tudo bem. COmo bovê estã? Esta bema?"
