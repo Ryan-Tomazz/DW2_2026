@@ -1,5 +1,6 @@
-let x = 5
-let y = 2
-let z = (x/y) - (x+((x**2)/(y**2)))/(x-((x**2)/(y**2)))
+let x = 2
+let y = 3
+let z = (x/y) - ((x+((x/y)**2))/(x-((x/y)**2)))
+            
 
 console.log(z)
