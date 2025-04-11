@@ -1,15 +1,17 @@
-const x = [1,2,3,4,5]
-function comreverse(z){
-    let y = z.reverse()
-    console.log(y)
+let x = [1,2,3,4,5]
+
+function comreverse(x){
+    let y = structuredClone(x)
+    console.log(y.reverse())
 }
-function semreverse(z){
+function semreverse(x){
     let novo = []
-    for( let y = z.length-1, i = 0; i<z.length;i++,y-- ){
-        novo += x[y]
+    for( let y = x.length-1, i = 0; i<x.length;i++,y-- ){
+        novo[i] = Number(x[y])
     } 
     console.log(novo)
 }
 
-
+console.log(x)
 semreverse(x)
+comreverse(x)
