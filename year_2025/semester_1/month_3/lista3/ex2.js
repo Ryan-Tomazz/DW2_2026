@@ -1,6 +1,6 @@
-let x = 4
-let z = 6
-let y = 5
+let x = 6
+let z = 8
+let y = 10
 
 function tri(x, y, z) {
     let a = 1
@@ -17,21 +17,21 @@ function tri(x, y, z) {
     }
 
     if (x >= y + z) {
-        console.log(x,z,y)
         console.log("não forma triângulo")
     } else {
-        if (z == y == x) {
-            console.log("triangulo equilatero")
-        } else if (z == y || x == y || x == z) {
-            console.log(x, y, z)
-            console.log("triangulo isosceles")
-        } else if (x ** 2 == y ** 2 + z ** 2) {
-            console.log("triângulo retangulo")
-        } else if (x ** 2 > y ** 2 + z ** 2) {
+        if (x ** 2 > y ** 2 + z ** 2) {
             console.log("triangulo obtusangulo")
-        } else { console.log("triangulo acutangulo") }
-
-
+        } else {
+            if (x ** 2 < y ** 2 + z ** 2) {
+                console.log("triangulo obtusangulo")
+            }
+            if (z == y && y == x) {
+                console.log("triangulo equilatero")
+            } else if (z == y || x == y || x == z) {
+                console.log("triangulo isosceles")
+            } else if (x ** 2 == y ** 2 + z ** 2) {
+                console.log("triângulo retangulo")
+            }
+        }
     }
-}
-tri(x, y, z)
+    tri(x, y, z)
