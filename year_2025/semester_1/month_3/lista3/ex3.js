@@ -1,4 +1,4 @@
-let salario = 2000.00
+let salario = 400.00
 
 function reajuste(x){
     let ganho = 1

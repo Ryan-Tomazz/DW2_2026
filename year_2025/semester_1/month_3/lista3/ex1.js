@@ -1,5 +1,5 @@
-let x = 5
-let y = 4
+let x = 0
+let y = 0
 
 function quadrante (x,y){
 if(x>0 & y>0){

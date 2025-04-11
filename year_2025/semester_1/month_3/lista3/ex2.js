@@ -34,4 +34,5 @@ function tri(x, y, z) {
             }
         }
     }
-    tri(x, y, z)
+}
+tri(x, y, z)
