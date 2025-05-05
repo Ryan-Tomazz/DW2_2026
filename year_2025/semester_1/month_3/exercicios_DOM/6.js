@@ -12,4 +12,10 @@ function lam() {
     });
 }
 
+
+let cor = {
+    cor : "branca"
+}
+
+corNova = JSON.stringify(cor)
 lam();
