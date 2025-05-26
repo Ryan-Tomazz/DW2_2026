@@ -1,0 +1,52 @@
+body {
+    font-family: Arial;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 50%;
+    /* Reduzindo a largura dos campos */
+    padding: 8px;
+}
+
+h1 {
+    padding-left: 70vh;
+}
+
+form {
+    height: 60vh;
+    width: 40vw;
+    padding-left: 50vh;
+}
+
+div {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 30%;
+    bottom: 80.5%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
