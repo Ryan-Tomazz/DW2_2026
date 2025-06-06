@@ -12,12 +12,14 @@ export default function Contador() {
     return (
         <>
             <main>
-                <h2>Contador</h2>
-                <div>{contador}</div>
-                <Botoes
-                    onIncrement={incrementar}
-                    onDecrement={decrementar}
-                />
+                <div className="box">
+                    <h2>Contador</h2>
+                    <div className="contador">{contador}</div>
+                    <Botoes
+                        onIncrement={incrementar}
+                        onDecrement={decrementar}
+                    />
+                </div>
             </main>
         </>
     );

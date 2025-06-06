@@ -4,16 +4,19 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow: hidden;
+
 }
 
 header {
   width: 100vw;
   height: 10vh;
-  background: #2A7B9B;
-  background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+  background: white;
+  border: solid black 1px;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: chocolate;
 
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;

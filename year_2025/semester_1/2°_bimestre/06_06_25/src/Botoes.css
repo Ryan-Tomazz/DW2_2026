@@ -1,0 +1,18 @@
+.botoes{
+    width: 9.4vw;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 7vh;
+}
+
+button{
+    background-color: transparent;
+    border: 0;
+    font-size: 1.7em;
+}
+
+.menos{
+    padding-bottom: 3.5px;
+}
